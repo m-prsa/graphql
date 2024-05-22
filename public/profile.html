@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Profile</title>
+    <link rel="stylesheet" href="water.css">
+</head>
+<body>
+    <header>
+        <h1 id="hello">Hello</h1>
+        <button id="logoutButton">Log Out</button>
+    </header>
+
+    <section class="profile-section" id="userInfo">
+        <h2>User Information</h2>
+        <!-- User information will be inserted here -->
+    </section>
+
+    <section class="profile-section" id="userXP">
+        <h2>XP Statistics</h2>
+        <!-- XP statistics will be inserted here -->
+    </section>
+
+    <section class="profile-section" id="userRatio">
+        <h2>Ratio MACRON PTDR</h2>
+        <!-- Grades will be inserted here -->
+    </section>
+
+    <section class="profile-section" id="userStats">
+        <h2>Statistic Graphs</h2>
+        <!-- Statistic graphs will be inserted here -->
+        <div id="pieDiv">
+            <svg id="pie" width="200" height="200"></svg>
+        </div>
+        
+        <div id="barDiv">
+            <svg id="barChart" width="600" height="400"></svg>
+        </div>
+    </section>
+
+    <script src="script/profile.js"></script>
+
+</body>
+</html>

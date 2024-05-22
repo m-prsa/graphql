@@ -1,0 +1,16 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "Here's one of my school project, GraphQL. This webapp request data from my school's from GraphQL and display it to the user.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+  ,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
