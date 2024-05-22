@@ -8,4 +8,4 @@ To run the app, execute the following commands in the terminal:
 
     npm install (Install all dependencies)
     npm start
-    open your browser at http://localhost:3000
+
